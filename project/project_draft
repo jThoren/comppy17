@@ -1,0 +1,11 @@
+Script to distribute "Herwig" runs on computers
+
+- Use a specified version of Herwig
+- Build needed analyses?
+- Read Herwig for all runs with the same in-file, copy the Herwig-scratch directory + the run file to all run folders
+- Run Herwig on the cores that were specified
+- Print info about how it went, so it's easy to see how many runs ended up being done
+- Merge the yoda files
+- maybe do some rivet-mkhtml
+- clean up
+- check log-files for errors?

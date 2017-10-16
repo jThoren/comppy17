@@ -1,0 +1,9 @@
+Make a file:
+.gitignore
+
+add the name of files/folders we don't want to show up in status
+
+
+Commands to create a user name and email for myself:
+git config --global user.email "johan.h.thoren@thep.lu.se"
+git config --global user.name "Johan Thoren"
