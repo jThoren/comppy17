@@ -40,3 +40,16 @@ $ git checkout -b testing
 
 To see what branch we're on at the moment
 $ git branch
+
+
+
+#################################
+# Putting the repository online #
+#################################
+Can put the repository on github (will be public unless one pays for it)
+$ git remote add origin https://github.com/jThoren/comppy17.git
+$ git push -u origin master
+
+
+To create a copy of the repository from github
+$ git clone https://github.com/jThoren/comppy17
