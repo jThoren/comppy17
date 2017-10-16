@@ -1,1 +1,3 @@
-python_programs/day_1/.ipnyb_checkpoints
+python_programs/day_1/.ipynb_checkpoints/*
+*.pyc
+*~

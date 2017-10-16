@@ -1,9 +1,35 @@
-Make a file:
-.gitignore
+#########################
+# Making the repository #
+#########################
 
-add the name of files/folders we don't want to show up in status
+Making a git repository, first step:
+$ git init
 
+Make a file to ignore some files when doing git status:
+$ touch .gitignore
+Add the name of files/folders we don't want to show up in status to the .gitignore file
+To add this (or some other file)
+$ git add .gitignore
 
 Commands to create a user name and email for myself:
-git config --global user.email "johan.h.thoren@thep.lu.se"
-git config --global user.name "Johan Thoren"
+$ git config --global user.email "johan.h.thoren@thep.lu.se"
+$ git config --global user.name "Johan Thoren"
+
+
+##########################
+# Some standard commands #
+##########################
+
+To see the status of all the files in the repository
+$ git status
+
+To see a log of commits
+$ git log
+Option
+$ git log --oneline
+
+To commit changes
+$ git commit -m "a useful message"
+
+To change version
+$ git checkout master
