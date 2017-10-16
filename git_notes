@@ -33,3 +33,10 @@ $ git commit -m "a useful message"
 
 To change version
 $ git checkout master
+can give the hash for the version from git log
+
+Make a branch
+$ git checkout -b testing
+
+To see what branch we're on at the moment
+$ git branch
