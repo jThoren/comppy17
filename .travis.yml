@@ -1,11 +1,11 @@
 language: python
 python:
-	- "2.7" -
-	- "3.6" -
+	- "2.7"
+	- "3.6"
 install:
-	pip install pytest pytest-cov
+	- pip install pytest pytest-cov
 script:
-	cd python_programs/day_2/
-	python -m pytest test_mymath.py -v --cov=mymath --cov-report=html
+	- cd python_programs/day_2/
+	- python -m pytest test_mymath.py -v --cov=mymath --cov-report=html
 after_success:
 	- coveralls

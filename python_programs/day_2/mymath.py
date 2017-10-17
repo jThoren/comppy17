@@ -13,6 +13,14 @@ def mymax(x,y):
 
 # Extending our max function, what if we want more than 2 numbers?
 def listmax(l):
+        """
+    Returns the max of a list of variables that have the operator > defined
+    
+    Input parameters: a list containing any types with > defined between them.
+    
+    >>> mymax(3,5)
+    5
+    """
     # Safety for the case where l is empty
     try:
         lmax = l[0]
