@@ -53,3 +53,12 @@ $ git push -u origin master
 
 To create a copy of the repository from github
 $ git clone https://github.com/jThoren/comppy17
+
+To push/pull changes from the local repository to the github repository
+$ git push 
+$ git pull
+
+###########
+# Forking #
+###########
+It's like a clone, but between two github accounts
