@@ -4,8 +4,9 @@ python:
   - "3.6"
 install:
   - pip install pytest pytest-cov
-script:
+before_script:
   - cd python_programs/day_2/
+script:
   - python -m pytest test_mymath.py -v --cov=mymath --cov-report=html
 after_success:
   - coveralls
