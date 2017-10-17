@@ -41,7 +41,30 @@ $ git checkout -b testing
 To see what branch we're on at the moment
 $ git branch
 
+To see what's happening with the branches
+$ git log --oneline --graph -- decorate --topo-order --all
 
+##################
+# Create aliases #
+##################
+Do
+$ git config --global alias.co checkout
+$ git config --global alias.br branch
+$ git config --global alias.ci commit
+$ git config --global alias.st status
+
+Can also go into the file ~/.gitconfig, which looks like
+=== Start of file ===
+[user]
+	email = johan.h.thoren@thep.lu.se
+	name = Johan Thoren
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	logall = log --oneline --graph --decorate --topo-order --all
+=== End of file ===
 
 #################################
 # Putting the repository online #
