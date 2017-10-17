@@ -7,4 +7,15 @@
 
 Notes:
 - The .travis.yml file does not like tab indentation, use 2 spaces
-- 
+
+
+
+Run
+$ mkdir doc
+$ cd doc
+$ sphinx-quickstart
+and pick the default options
+To make an html site
+$ make html
+
+Add to the git repo

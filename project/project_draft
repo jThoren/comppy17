@@ -11,3 +11,4 @@ Script to distribute "Herwig" runs on computers
 - check log-files for errors?
 - check for errors both in the log files after runs and during the read step
 - ctrl-c should send an interrupt signal to Herwig on all of the nodes, and not do what it currently is
+- allow rerun to get more statistics (optional cleanup of Herwig-scratch and .run files)
