@@ -1,1 +1,3 @@
 - travis-ci.org, testing coupled to github, such that tests are run when github is updated
+  + need to add a file .travis.yml
+- coveralls.io
