@@ -1,3 +1,10 @@
 - travis-ci.org, testing coupled to github, such that tests are run when github is updated
   + need to add a file .travis.yml
 - coveralls.io
+
+
+
+
+Notes:
+- The .travis.yml file does not like tab indentation, use 2 spaces
+- 
