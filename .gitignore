@@ -1,3 +1,6 @@
 python_programs/day_*/.ipynb_checkpoints/*
 *.pyc
 *~
+.cache
+.coverage
+htmlcov

@@ -9,10 +9,7 @@ def mymax(x,y):
     >>> mymax(3,5)
     5
     """
-    if x > y:
-        return x
-    else:
-        return y
+    return listmax([x,y])
 
 # Extending our max function, what if we want more than 2 numbers?
 def listmax(l):
