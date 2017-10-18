@@ -12,3 +12,7 @@ Script to distribute "Herwig" runs on computers
 - check for errors both in the log files after runs and during the read step
 - ctrl-c should send an interrupt signal to Herwig on all of the nodes, and not do what it currently is
 - allow rerun to get more statistics (optional cleanup of Herwig-scratch and .run files)
+- keep herwig specific stuff separate? making it easier for someone else to fix the script
+- make the script check for activity?
+- not stop with a run to wait for the slowest computers to finish, start the next run
+- if the run fails on a computer, try again, BUT only a limited number of times (maybe try on some other computer)
