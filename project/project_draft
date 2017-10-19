@@ -16,3 +16,4 @@ Script to distribute "Herwig" runs on computers
 - make the script check for activity?
 - not stop with a run to wait for the slowest computers to finish, start the next run
 - if the run fails on a computer, try again, BUT only a limited number of times (maybe try on some other computer)
+- 
