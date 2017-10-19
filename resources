@@ -1,0 +1,29 @@
+Python:
+- Whirlwind tour of python
+  https://jakevdp.github.io/WhirlwindTourOfPython/
+
+Scipy:
+- Scipy lecture notes
+  http://www.scipy-lectures.org/
+
+Matplotlib:
+- Package for plotting
+- Gallery, contains source code for the plots
+  http://matplotlib.org/gallery
+- Exercises
+  http://scipy-lectures.github.io/intro/matplotlib/matplotlib.html#other-types-of-plots-examples-and-exercises
+
+Seaborn:
+- Another package for plotting
+- Seaborn gallery, contains source code for the plots
+  http://seaborn.pydata.org/examples/
+
+Bokeh:
+- For more interactive plotting
+- Bokeh gallery, contains source code for the plots
+  https://bokeh.pydata.org/en/latest/docs/gallery.html
+
+Git:
+- Pro git
+  https://git-scm.com/book/en/v2
+
